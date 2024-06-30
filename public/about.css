@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: blanchedalmond;
+ 
+}
+.rabby{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    color: black;
+    width: 75%;
+    margin: auto;
+    
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+}
+form{
+    width: 75%;
+    margin: auto;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+button{
+    margin-top: 10px;
+    background-color: blue;
+    padding:15px;
+    border-radius: 5px;
+
+}
+
+textarea{
+    width: 102%;
+    margin: auto;
+}
+header a{
+    text-decoration: none;
+    color:  black;
+}

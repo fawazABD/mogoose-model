@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/about.css">
+</head>
+<body>
+    {{>__header}}
+    <div class="rabby">
+        <h1>Hi, I am Rabby</h1>
+        <p>web developer and content creator</p>
+        <div class="img">
+            <img src="https://media.istockphoto.com/id/800640916/photo/back-view-of-silhouette-of-a-woman-putting-on-makeup-in-front-of-a-window.jpg?s=1024x1024&w=is&k=20&c=LwiqhiO1PB51cZ3yZ2obSwxNWHelt7fgav8sbuX-rJo=" alt="">
+        </div>
+    </div>
+    <form 
+    action="/blog/create-blogs"
+    method="post"
+    enctype="application/x-www-form-urlencoded">
+    <div>
+        <label for="title">Title</label>
+        <input type="text" name="title" id="title">
+    </div>
+    <div>
+        <label for="tags">Tags  </label>
+        <input name="tags" name="tags"></input>
+    </div>
+    <div class="con1">
+        <label for="Content">Cotent</label>
+        <textarea name="Content" id=""></textarea>
+    </div>
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+    </form>
+</body>
+</html>
